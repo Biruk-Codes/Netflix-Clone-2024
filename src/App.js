@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
      <h2>Consistent</h2>
+     <h2>app</h2>
           </div>
   );
 }
