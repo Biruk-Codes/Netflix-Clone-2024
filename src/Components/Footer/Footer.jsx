@@ -1,20 +1,19 @@
 import React from "react";
-import FacebookOutlineIcon from "@mui/icons-material/FacebookOutline";
-import YouTubeIcon from "@mui/icons-material/ YouTube";
+import FacebookOutlineIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./footer.css";
-export default function Footer()
- {
+export default function Footer() {
   return (
-    <div classname="footer_outer_container">
-      <div classname="footer_inner_container">
-        <div classname="footer_icons">
+    <div className="footer_outer_container">
+      <div className="footer_inner_container">
+        <div className="footer_icons">
           <FacebookOutlineIcon />
           <InstagramIcon />
           <YouTubeIcon />
         </div>
-        <div classname="footer_data">
-          <div> 
+        <div className="footer_data">
+          <div>
             <ul>
               <li>Audio Description</li>
               <li>Investor Relations</li>
@@ -42,10 +41,14 @@ export default function Footer()
               <li>Contact Us</li>
             </ul>
           </div>
-        </div>
-        <div className="copy-write">
-    &copy; 1997-2004 Netflix,Inc.
-        </div>
+         <div className='quat'>
+          <div className="service_code">
+            <p>service code</p>
+         </div>
+          <div className="copy-write">&copy; 1997-2004 Netflix,Inc.
+            </div>
+            </div>
+          </div>
       </div>
     </div>
   );
