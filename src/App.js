@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Pages/Home/Home';
 
 function App() {
+  console.log()
   return (
     <div className="App">
    <Home/>
