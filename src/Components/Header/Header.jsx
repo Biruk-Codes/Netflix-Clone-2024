@@ -12,7 +12,8 @@ export default function Header() {
         <div className="header_left">
           <ul>
          <li> <img src={NetflixLogo} width="100"></img></li>
-            <li>Netflix</li>
+         <li><h2>Biruk-Codes</h2></li>
+            <li>Netflix </li>
             <li>Home</li>
             <li>TV Shows</li>
             <li>Movies</li>
